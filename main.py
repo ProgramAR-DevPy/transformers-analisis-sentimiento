@@ -8,7 +8,8 @@ from transformers import pipeline
 print("Cargando el modelo de análisis de sentimiento...")
 analizador_sentimiento = pipeline(
     "sentiment-analysis",
-    model="nlptown/bert-base-multilingual-uncased-sentiment" 
+    model="pysentimiento/robertuito-sentiment-analysis"
+    #model="nlptown/bert-base-multilingual-uncased-sentiment" 
 )
 print("¡Modelo cargado con éxito! ✅")
 
